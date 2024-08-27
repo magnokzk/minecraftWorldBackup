@@ -1,0 +1,13 @@
+.env
+/server_files/whitelist.json
+/server_files/usercache.json
+/server_files/banned-ips.json
+/server_files/banned-players.json
+/server_files/world
+/server_files/logs
+/server_files/libraries
+/server_files/crash-reports
+/server_files/backups
+/server_files/versions
+/dist
+/node_modules

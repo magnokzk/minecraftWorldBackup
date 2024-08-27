@@ -1,0 +1,37 @@
+{
+  "name": "mine_server_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "exec": "tsc && node ./dist/index.js",
+    "ext": "ts,js,json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mine_server_test": "file:",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^22.5.0",
+    "@types/node-cron": "^3.0.11",
+    "module-alias": "^2.2.3"
+  },
+  "_moduleAliases": {
+    "@": "./dist"
+  }
+}
