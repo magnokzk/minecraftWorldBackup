@@ -29,3 +29,10 @@ npm ci
 ## Configuração
 
 Certifique-se de configurar corretamente o caminho dos arquivos do servidor de Minecraft e o diretório onde os backups serão armazenados. Esses detalhes podem ser ajustados no arquivo de configuração disponível no projeto.
+
+
+# ATENÇÃO!
+
+Este serviço ainda encontra-se em desenolvimento. Faltam recursos muito importantes para o gerenciamento de um servidor que serão adicionados.
+
+Caso tenha alguma sugestão, sinta-se livre para comentar sobre.
