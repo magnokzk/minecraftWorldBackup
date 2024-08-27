@@ -1,3 +1,4 @@
+import { log } from '../logger/logger.js';
 import { promises as fsPromises, Stats } from 'fs';
 import * as path from 'path';
 
@@ -10,7 +11,7 @@ export const countBackupFiles = async (backupDir: string): Promise<number> => {
     }
 };
 
-export const deleteOldestFile = async (backupDir: string, log: (...msg: string[]) => void): Promise<void> => {
+export const deleteOldestFile = async (backupDir: string): Promise<void> => {
     try {
         const files = await fsPromises.readdir(backupDir);
         if (files.length === 0) {

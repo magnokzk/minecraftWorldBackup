@@ -25,7 +25,7 @@ export async function backupWorld(worldDir: string, backupDir: string): Promise<
 async function checkBackupRemoval(backupDir: string): Promise<void> {
     const count = await countBackupFiles(backupDir);
     if (count > 5) {
-        await deleteOldestFile(backupDir, log);
+        await deleteOldestFile(backupDir);
         await checkBackupRemoval(backupDir);
     }
 }
