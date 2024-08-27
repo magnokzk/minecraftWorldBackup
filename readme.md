@@ -23,7 +23,7 @@ Este projeto é um sistema automatizado para gerar backups de mundos do Minecraf
 Para iniciar o sistema e começar a gerar backups dos mundos do Minecraft, execute o seguinte comando:
 
 ```bash
-npm ci
+npm run start
 ```
 
 ## Configuração
