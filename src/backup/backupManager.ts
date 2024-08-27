@@ -2,8 +2,9 @@ import { exec } from 'child_process';
 import * as path from 'path';
 import { countBackupFiles, deleteOldestFile } from './fileManager.js';
 import { log } from '../logger/logger.js';
+import { sendCommandToServer } from '../commands/serverCommands.js';
 
-export async function backupWorld(worldDir: string, backupDir: string, sendCommandToServer: (command: string) => void): Promise<void> {
+export async function backupWorld(worldDir: string, backupDir: string): Promise<void> {
     console.log('backup world')
     const timestamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0];
     const backupPath = path.join(backupDir, `world_backup_${timestamp}`);

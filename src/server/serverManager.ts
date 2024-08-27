@@ -31,7 +31,7 @@ export function setupServerListeners(server: ChildProcessWithoutNullStreams, bac
         });
 
         if (lines.some(line => line.includes('Done'))) {
-            scheduleBackup(worldDir, backupDir, (cmd) => server.stdin.write(`${cmd}\n`));
+            scheduleBackup(worldDir, backupDir);
             log('Servidor iniciado e pronto para receber comandos.');
         }
     });
