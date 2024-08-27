@@ -5,7 +5,6 @@ import { log } from '../logger/logger.js';
 import { sendCommandToServer } from '../commands/serverCommands.js';
 
 export async function backupWorld(worldDir: string, backupDir: string): Promise<void> {
-    console.log('backup world')
     const timestamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0];
     const backupPath = path.join(backupDir, `world_backup_${timestamp}`);
 
