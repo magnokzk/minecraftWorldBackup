@@ -11,8 +11,8 @@ Este projeto é um sistema automatizado para gerar backups de mundos do Minecraf
 
 1. Clone este repositório:
    ```bash
-   git clone <URL-do-repositório>
-   cd <nome-do-repositório>
+   git clone https://github.com/magnokzk/minecraftWorldBackup
+   cd minecraftWorldBackup
    ```
 2. Instale as dependências
     ```bash
