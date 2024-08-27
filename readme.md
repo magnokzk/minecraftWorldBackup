@@ -33,6 +33,6 @@ Certifique-se de configurar corretamente o caminho dos arquivos do servidor de M
 
 # ATENÇÃO!
 
-Este serviço ainda encontra-se em desenolvimento. Faltam recursos muito importantes para o gerenciamento de um servidor que serão adicionados.
+Este serviço ainda encontra-se em desenvolvimento. Faltam recursos muito importantes para o gerenciamento de um servidor que serão adicionados.
 
 Caso tenha alguma sugestão, sinta-se livre para comentar sobre.
